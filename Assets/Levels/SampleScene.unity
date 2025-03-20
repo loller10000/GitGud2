@@ -10734,7 +10734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 699fe1494c10fe04889e52d657028905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previousRoom: {fileID: 0}
+  previousRoom: {fileID: 935118306}
   nextRoom: {fileID: 730931937}
   cam: {fileID: 519420030}
 --- !u!61 &1576213582
@@ -15378,7 +15378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 699fe1494c10fe04889e52d657028905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previousRoom: {fileID: 0}
+  previousRoom: {fileID: 730931937}
   nextRoom: {fileID: 1099701484}
   cam: {fileID: 519420030}
 --- !u!61 &2062063025
