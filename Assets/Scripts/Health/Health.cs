@@ -8,7 +8,8 @@ public class Health : MonoBehaviour
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
     private Animator anim;
-    private bool dead;
+    public bool dead;
+    public bool deactivated = false;
 
     [Header("Iframes")]
     [SerializeField] private float iFramesDuration;
@@ -90,5 +91,6 @@ public class Health : MonoBehaviour
     private void Deactivate()
     {
         gameObject.SetActive(false);
+        deactivated = true;
     }
 }
