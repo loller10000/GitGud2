@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
     [SerializeField] private Behaviour[] components;
 
     [Header("Death sound")]
-    [SerializeField] private AudioClip Deathsound;
+    [SerializeField] private AudioClip deathsound;
     [SerializeField] private AudioClip hurtsound;
 
     private void Awake()
@@ -52,7 +52,7 @@ public class Health : MonoBehaviour
             }
 
             dead = true;
-            SoundManager.instance.PlaySound(Deathsound);
+            SoundManager.instance.PlaySound(deathsound);
         }
     }
 
