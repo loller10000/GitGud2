@@ -68,7 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   children: {fileID: 3393671980420086485, guid: b4c7baa71cbc52912bd7ef582326d47e, type: 3}
   spawnerEnemy: {fileID: 2456751007715309907}
-  enemyChildSpawner: {fileID: 0}
+  enemyChildSpawner: {fileID: 2739360401996467736}
 --- !u!1 &3393671981440032244
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,38 +156,7 @@ Transform:
   m_GameObject: {fileID: 5581679393775119299}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -1.17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2456751007715309908}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6682490780286029826
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3688183184908932167}
-  m_Layer: 11
-  m_Name: ChildSpawn2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3688183184908932167
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6682490780286029826}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -264,9 +233,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7141346232487090994, guid: 7f8add46e3e6a3e2da05c2b49b213e8d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2739360401996467736}
-    - targetCorrespondingSourceObject: {fileID: 7141346232487090994, guid: 7f8add46e3e6a3e2da05c2b49b213e8d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3688183184908932167}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f8add46e3e6a3e2da05c2b49b213e8d, type: 3}
 --- !u!1 &2456751007715309907 stripped

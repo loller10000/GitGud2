@@ -8,19 +8,19 @@ public class SpawnerEnemy : MonoBehaviour
     private int childrenCount;
     [SerializeField] private Transform enemyChildSpawner;
 
+
     void Update()
     {
-        if (spawnerEnemy.activeSelf == false && childrenCount < 2)
+        if (spawnerEnemy.activeSelf == false && childrenCount < 1)
         {
-                
-            for (int i = 1; i < 3; i++)
+            for (int i = 1; i < 2; i++)
             {
-                Instantiate(children, transform.position, Quaternion.identity);
-                enemyChildSpawner.position = enemyChildSpawner.position + new Vector3(100 * i, 0, 0);
-                childrenCount++;
                 print("bruh");
+                Instantiate(children, enemyChildSpawner.position, Quaternion.identity);
+                childrenCount++;
             }
-                
+
+
         }
     }
 }
