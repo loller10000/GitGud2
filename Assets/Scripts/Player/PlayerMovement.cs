@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 body.gravityScale = 0;
                 body.linearVelocity = Vector2.zero;
+                Invoke("FallOffWalls", 3f);
             }
 
             else
@@ -104,5 +105,11 @@ public class PlayerMovement : MonoBehaviour
     public bool CanAttack()
     {
         return horizontalInput == 0 && IsGrounded() && !OnWall();
+    }
+
+    public void FallOffWalls()
+    {
+        body.gravityScale = 7;
+        print("falling off walls");
     }
 }
