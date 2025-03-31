@@ -109,7 +109,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void FallOffWalls()
     {
-        body.gravityScale = 7;
-        print("falling off walls");
+        if (!IsGrounded() && OnWall())
+        {
+            body.gravityScale = 7;
+            print("falling off walls");
+
+        }
+
     }
 }
